@@ -23,7 +23,12 @@ contract ProposalContract {
         owner = msg.sender;
     }
 
-    function create(string calldata _title, string calldata _description, uint256 _total_vote_to_end) external {
+    modifier onlyOwner() {
+        require(msg.sender == owner, "Only the owner can create proposals");
+        _;
+    }
+
+    function create(string calldata _title, string calldata _description, uint256 _total_vote_to_end) external onlyOwner {
         counter += 1;
         proposal_history[counter] = Proposal(_title, _description, 0, 0, 0, _total_vote_to_end, false, true);
     }
