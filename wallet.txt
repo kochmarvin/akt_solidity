@@ -1,0 +1,8 @@
+Wallet software: MetaMask
+Network: Sepolia
+        
+Wallet: 0xa01714B7400d75b1071f2d925d5073C1eD589786
+Wallet explorer: https://sepolia.etherscan.io/address/0xa01714B7400d75b1071f2d925d5073C1eD589786
+
+Contract: 0xf324ABE3b7cc3E923D41B03a03ce5048Afe23acE
+Contract explorer: https://sepolia.etherscan.io/address/0xf324ABE3b7cc3E923D41B03a03ce5048Afe23acE
